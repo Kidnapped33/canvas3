@@ -10,11 +10,6 @@ ctx.lineCap = 'round'
 let painting = false
 let last;
 
-window.addEventListener("resize", resizeCanvas, false);
-function resizeCanvas() {
-    w = canvas.width = window.innerWidth;
-    h = canvas.height = window.innerHeight;
-}
 
 var isTouchDevice = "ontouchstart" in document.documentElement;
 if (isTouchDevice) {
